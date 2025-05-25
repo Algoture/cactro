@@ -71,7 +71,7 @@ function App() {
             key={story.id}
             onClick={() => setStoryId(story.id)}
             className={clsx(
-              "size-10 mr-1 inline-block cursor-pointer rounded-full border-[1.5px]",
+              "size-10 mr-2 inline-block cursor-pointer rounded-full border-[1.5px]",
               story.id === storyId
                 ? "border-blue-500"
                 : viewed.includes(story.id)
